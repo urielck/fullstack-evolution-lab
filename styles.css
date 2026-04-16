@@ -1,0 +1,60 @@
+/* PARTE 2 — Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    color: white;
+}
+
+/* PARTE 3 — Mejoras Visuales (Los ajustes nuevos) */
+h1 {
+    margin: 0; /* Quita el espacio extra que el navegador pone arriba del título */
+}
+
+h2 {
+    color: #333; /* Le da un tono gris oscuro para que no sea negro puro */
+}
+
+ul {
+    list-style: none; /* Quita los puntitos (balas) de las listas */
+    padding: 0;       /* Alinea la lista perfectamente a la izquierda */
+}
+
+.proyectos {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    background: #eee;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+    .proyectos {
+        flex-direction: column;
+    }
+}
